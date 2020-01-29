@@ -33,7 +33,6 @@ public class ItemPool : MonoBehaviour
     public Item GetRandomItem()
     {
         float randomResult = (float)random.NextDouble();
-
         IEnumerable<Item> eligibleItems = null;
 
         if(randomResult > rarityOptions.legendaryChance.Min)

@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerEquipment : MonoBehaviour {
     public Weapon Weapon = null;
     public Armor Armor = null;
-
+    
     public Weapon EquipWeapon(Weapon weapon)
     {
         print("picked up " + weapon.name);
